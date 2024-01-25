@@ -5,8 +5,9 @@ Gem::Specification.new do |s|
   s.description = "Creates the build file needed for deploying to Render"
   s.authors     = ["Enoch Tamulonis"]
   s.email       = "wavclouds@gmail.com"
-  s.files       = ["lib/render_build_setup.rb"]
+  s.files = Dir["lib/**/*"]
   s.homepage    =
     "https://rubygems.org/gems/hola"
   s.license       = "MIT"
+  spec.add_dependency 'rails', '>= 6.0'
 end
