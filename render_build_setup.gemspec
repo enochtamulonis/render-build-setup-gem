@@ -6,6 +6,9 @@ Gem::Specification.new do |s|
   s.authors     = ["Enoch Tamulonis"]
   s.email       = "wavclouds@gmail.com"
   s.files = Dir["lib/**/*", "README.md"]
+  # Generator definition
+  s.add_development_dependency 'railties', '>= 6.0' # Required for generators
+  s.add_development_dependency 'thor', '>= 0.20.0' # Required for generators
   s.homepage    =
     "https://rubygems.org/gems/hola"
   s.license       = "MIT"
