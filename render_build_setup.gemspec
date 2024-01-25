@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    =
     "https://rubygems.org/gems/hola"
   s.license       = "MIT"
-  spec.add_dependency 'rails', '>= 6.0'
+  s.add_dependency 'rails', '>= 6.0'
 end
