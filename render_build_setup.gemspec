@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = "Creates the build file needed for deploying to Render"
   s.authors     = ["Enoch Tamulonis"]
   s.email       = "wavclouds@gmail.com"
-  s.files = Dir["lib/**/*"]
+  s.files = Dir["lib/**/*", "README.md"]
   s.homepage    =
     "https://rubygems.org/gems/hola"
   s.license       = "MIT"
