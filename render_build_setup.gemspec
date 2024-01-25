@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'railties', '>= 6.0' # Required for generators
   s.add_development_dependency 'thor', '>= 0.20.0' # Required for generators
   s.homepage    =
-    "https://rubygems.org/gems/hola"
+    "https://rubygems.org/gems/render_build_setup"
   s.license       = "MIT"
   s.add_dependency 'rails', '>= 6.0'
 end
