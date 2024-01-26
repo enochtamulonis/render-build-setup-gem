@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-class InitializerGenerator < Rails::Generators::Base
+class RenderBuildSetupGenerator < Rails::Generators::Base
   source_root File.expand_path('templates', __dir__)
   desc "This generator creates the build file at bin/render-build.sh"
 
